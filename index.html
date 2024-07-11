@@ -11,9 +11,118 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- Dev Icons fonts -->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <!-- Css do projeto -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h1>Teste</h1>
+    <main id="container">
+      <aside id="bio-container">
+        <h2>Gabriel M. Valadão</h2>
+        <img src="img/foto-gabriel.jpg" alt="Gabriel Valadão" />
+        <p>
+          Olá, meu nome é Gabriel Valadão e sou
+          <span id="highlight">Desenvolvedor Full Stack</span> Seja bem vindo!
+        </p>
+        <ul id="social-container">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/gabrieldesenvolvedorfullstack/"
+              target="_blanck"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/gabrielvaladao__/"
+              target="_blanck"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+        </ul>
+        <div id="email-container">
+          <ion-icon name="mail-outline"></ion-icon
+          ><a href="mailto:metzdorfgabriel@gmail.com"
+            >metzdorfgabriel@gmail.com</a
+          >
+        </div>
+      </aside>
+      <section id="about-container">
+        <h1 id="name">Gabriel M. Valadão</h1>
+        <p id="title"><span id="highlight">Desenvolvedor Full Stack</span></p>
+        <p class="description">
+          Olá! Sou Gabriel, tenho 26 anos e atualmente resido no Rio Grande do
+          Sul. Sou um entusiasta da programação e tecnologia, dedicado a
+          aprimorar minhas habilidades.
+          <span id="highlight"
+            >Finalizei o curso de Desenvolvedor Full Stack</span
+          >
+          e agora estou procurando minha primeira oportunidade na área de
+          tecnologia, em busca de desafios estimulantes e possibilidades de
+          colaboração.
+        </p>
+        <p class="description">
+          Atuo tanto no <span id="highlight">front-end</span> quanto no
+          <span id="highlight">back-end</span> e busco estudar todos os dias
+          para cada vez me aprimorar mais e escrever códigos de qualidade!
+        </p>
+        <a href="https://github.com/GabrielmValadao" id="btn-projects"
+          ><ion-icon name="github"></ion-icon><span>Ver projetos</span></a
+        >
+        <h2 id="skills-sections-title">Minhas skills</h2>
+        <p class="description">Conheça as tecnologias que eu domino:</p>
+        <div id="skills-container">
+          <div class="skills-box">
+            <p class="skills-title">Front-end</p>
+            <i class="devicon-html5-plain colored"></i>
+            <i class="devicon-css3-plain colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+          </div>
+          <div class="skills-box">
+            <p class="skills-title">Back-end</p>
+            <i class="devicon-php-plain colored"></i>
+            <i class="devicon-docker-plain colored"></i>
+            <i class="devicon-dbeaver-plain colored"></i>
+          </div>
+          <div class="skills-box">
+            <p class="skills-title">Database</p>
+            <i class="devicon-postgresql-plain colored"></i>
+          </div>
+          <div class="skills-box">
+            <p class="skills-title">Front-end Frameworks</p>
+            <i class="devicon-vuejs-plain colored"></i>
+            <i class="devicon-vuetify-plain colored"></i>
+          </div>
+          <div class="skills-box">
+            <p class="skills-title">Back-end Frameworks</p>
+            <i class="devicon-laravel-plain colored"></i>
+          </div>
+          <div class="skills-box">
+            <p class="skills-title">Tools</p>
+            <i class="devicon-docker-plain colored"></i>
+            <i class="devicon-dbeaver-plain colored"></i>
+            <i class="devicon-git-plain colored"></i>
+            <i class="devicon-github-plain colored"></i>
+            <i class="devicon-vscode-plain colored"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Ion Icons-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
